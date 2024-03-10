@@ -8,7 +8,7 @@ repo = ""   # Repository Name
 filename = ""   # Zipfile to download
 
 
-url = f"https://github.com/{user}/{repo}/releases/latest/download/{filename}"   # Latest download link
+url = f"https://github.com/{user}/{repo}/releases/latest/download/{filename}"   # Link
 
 def downloadlink(url):
     filename = url.split("/")[-1]
