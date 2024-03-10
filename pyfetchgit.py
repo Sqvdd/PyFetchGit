@@ -13,8 +13,8 @@ url = f"https://github.com/{user}/{repo}/releases/latest/download/{filename}"   
 def downloadlink(url):
     filename = url.split("/")[-1]
     with open(filename, "wb") as file:
-        respons = requests.get(url)
-        file.write(respons.content)
+        response = requests.get(url)
+        file.write(response.content)
 
 
 print("🚀 Downloading..")
