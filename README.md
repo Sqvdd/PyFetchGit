@@ -11,7 +11,9 @@ PyFetchGit is a lightweight Python tool for fetching and installing zipfiles fro
 - Automatically extracts the zipfile
 
 ## Installation 🛠️
+
 Download only the python file [here](https://github.com/sqvdd/pyfetchgit/releases/latest/download/pyfetchgit.py)
+
 1. Clone the repository:
 
    ```bash
